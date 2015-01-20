@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="~/Content/styles/kendo.silver.min.css" rel="stylesheet" />
+    <link href="~/Content/styles/kendo.silver.mobile.min.css" rel="stylesheet" />
+    <link href="~/Content/styles/kendo.dataviz.default.min.css" rel="stylesheet" />
+</head>
+<body ng-app="appModule">
+
+    <div class="container body-content" ng-controller="ListController">
+        @RenderBody()
+    </div>
+
+    <script src="~/Scripts/require.js"></script>
+    <script src="~/Scripts/app/config.js"></script>
+
+</body>
+</html>

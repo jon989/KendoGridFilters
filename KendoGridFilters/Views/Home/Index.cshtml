@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="filters">
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="form-group">
+                <label for="contactName">Contact name</label>
+                <input type="text" class="form-control" id="contactName" placeholder="Contact name" ng-model="contactName" ng-change="contactNameChange()">
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="form-group">
+                <label for="companyName">Company name</label>
+                <input type="text" class="form-control" id="companyName" placeholder="Company name" ng-model="companyName" ng-change="companyNameChange()">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <button class="btn btn-primary" ng-click="applyFilters()">Aplicar filtros</button>
+            <button class="btn" ng-click="clearFilters()">Quitar filtros</button>
+        </div>
+    </div>
+</div>
+<br/>
+<div kendo-grid="kendoGrid" k-options="gridOptions" k-rebind="gridOptions.selectable"></div>
+     @*k-on-change="handleChange(selected, data, dataItem, columns)"></div>*@
