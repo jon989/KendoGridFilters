@@ -19,11 +19,30 @@
     </div>
     <div class="row">
         <div class="col-xs-12">
-            <button class="btn btn-primary" ng-click="applyFilters()">Aplicar filtros</button>
-            <button class="btn" ng-click="clearFilters()">Quitar filtros</button>
+            <button id="c" class="btn btn-primary" ng-click="applyFilters()">Aplicar filtros</button>
+            <button id ="g" class="btn" ng-click="clearFilters()">Quitar filtros</button>
         </div>
     </div>
 </div>
 <br/>
-<div kendo-grid="kendoGrid" k-options="gridOptions" k-rebind="gridOptions.selectable"></div>
+<div id="grid" kendo-grid="kendoGrid" k-options="gridOptions" k-rebind="gridOptions.selectable"></div>
      @*k-on-change="handleChange(selected, data, dataItem, columns)"></div>*@
+
+<script>
+
+        $("#c").on("click", ".savesetting", function (e) {
+            var grid = $("#grid").closest("[data-role=grid]").data("kendoGrid");
+            e.preventDefault();
+            localStorage["settings2"] = kendo.stringify(grid.getOptions());
+        });
+
+        $("#g").on("click", ".loadsetting", function (e) {
+            var grid = $("#grid").closest("[data-role=grid]").data("kendoGrid");
+            e.preventDefault();
+            var options = localStorage["settings2"];
+            if (options) {
+                var parsedOptions = JSON.parse(options);
+                grid.setOptions(parsedOptions);
+            }
+        });
+</script>

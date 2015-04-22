@@ -24,3 +24,19 @@ c:\users\sergioantonio\documents\visual studio 2013\Projects\KendoGridFilters\Ke
 c:\users\sergioantonio\documents\visual studio 2013\Projects\KendoGridFilters\KendoGridFilters\obj\Debug\KendoGridFilters.csprojResolveAssemblyReference.cache
 c:\users\sergioantonio\documents\visual studio 2013\Projects\KendoGridFilters\KendoGridFilters\obj\Debug\KendoGridFilters.dll
 c:\users\sergioantonio\documents\visual studio 2013\Projects\KendoGridFilters\KendoGridFilters\obj\Debug\KendoGridFilters.pdb
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\KendoGridFilters.dll.config
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\KendoGridFilters.dll
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\KendoGridFilters.pdb
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\System.Web.Mvc.dll
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\System.Web.Helpers.xml
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\System.Web.Mvc.xml
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\System.Web.Optimization.xml
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\System.Web.Razor.xml
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\System.Web.WebPages.xml
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\System.Web.WebPages.Razor.xml
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\Antlr3.Runtime.pdb
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\bin\Newtonsoft.Json.xml
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\obj\Debug\KendoGridFilters.csprojResolveAssemblyReference.cache
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\obj\Debug\KendoGridFilters.dll
+C:\Users\jgrijalva\Documents\GitHub\KendoGridFilters\KendoGridFilters\obj\Debug\KendoGridFilters.pdb
